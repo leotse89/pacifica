@@ -4,6 +4,7 @@
 }
 
 html{
+	
 }
 
 body{
@@ -16,8 +17,9 @@ body{
 }
 
 nav{
-	float:left;
-	height:100VH;
+	background-color:#FFF;
+	height:100%;
+	width:25%;
 	box-shadow:#666;
 	border-right: 1px solid #CCC;
 	-webkit-touch-callout: none;
@@ -26,6 +28,8 @@ nav{
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	position:fixed;
+	z-index:9000;
 }
 
 nav ul{
@@ -49,11 +53,72 @@ nav ul li:hover{
 	background-color:#390;
 }
 
+.navActive{
+	background-color:#390;
+}
+
 .logo{
 	cursor:pointer;
-	padding:10px;
+	width:90%;
+	padding:5% 0 5% 5%;
 }
 
 #content{
-	
+	position:absolute;
+	left:25%;
+	width:75%;
+}
+
+/* HOME */
+#homeContent{
+	height:100VH;
+	padding:5px;
+	background-image:url(../imgs/dentist.jpg);
+	background-position:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#line{
+	border-top:4px solid #FFF;
+	height:16px;
+	width:200px;
+}
+
+#homeInfoTop{
+	color:#FFF;
+	background-color:#87C454;
+	position:absolute;
+	right:0;
+	top:30%;
+	padding:30px;
+}
+
+#bottomLogo{
+	float:right;
+	width:200px;
+	padding-top:20px;
+}
+
+#homeInfoBottom{
+	font-size:0.7em;
+	background-color:#FFF;
+	position:absolute;
+	bottom:0;
+	right:0;
+	padding:30px;
+}
+
+#hours{
+	float:left;
+	padding-right:30px;
+}
+
+#location{
+	float:right;
+}
+
+h3{
+	border-top:4px solid #87C454;
+	padding-top:10px;
 }
