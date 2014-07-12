@@ -6,7 +6,8 @@
 <link href="css/styles.css" type="text/css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="js/maps.js"></script>
 </head>
 
 <body>
