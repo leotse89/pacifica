@@ -1,6 +1,6 @@
 <div id="upperContentWrapper">
-    <div id="contactTop">
-        <span>CONTACT US</span>
+    <div id="contentTop">
+        <h2><span class="greenLine">CONTACT US</span></h2>
     </div>
     <div id="triangle"></div>
 </div>

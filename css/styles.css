@@ -86,12 +86,13 @@ nav ul li:hover{
 }
 
 #homeInfoTop{
+	position:absolute;
+	top:35%;
+	right:0;
 	color:#FFF;
 	background-color:#87C454;
-	position:absolute;
-	right:0;
-	top:30%;
 	padding:30px;
+	display:block;
 }
 
 #bottomLogo{
@@ -101,51 +102,59 @@ nav ul li:hover{
 }
 
 #homeInfoBottom{
-	font-size:0.7em;
-	background-color:#FFF;
 	position:absolute;
 	bottom:0;
 	right:0;
-	padding:30px;
+	font-size:0.7em;
+	background-color:#FFF;
+	padding:0 20px 20px 0;
+}
+
+#homeInfoBottom ul{
+	list-style:none;
+}
+
+#homeInfoBottom ul li{
+	display:inline-table;
+	padding: 30px 0 0 30px;
 }
 
 #hours{
-	float:left;
 	padding-right:30px;
 }
 
-#location{
-	float:right;
-}
-
-h3{
-	border-top:4px solid #87C454;
-	padding-top:10px;
-}
-
-/* CONTACT */
-#greenLine{
-	width:100px;
-	height:4px;
-	background-color:#87C454;
+/* top layer for the sub-pages */
+.greenLine{
+	border-top: 4px solid #87C454;
+	padding-top: 5px;
 }
 
 #upperContentWrapper{
 	text-align:center;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:8000;
 }
 
-#contactTop{
-	background-color:#CCC;
+#contentTop{
+	background-color:#FFF;
+	padding:30px;
 }
 
 #triangle{
 	display:inline-block;
 	border:1.5em solid transparent;
-	border-top:1.5em solid #CCC;
+	border-top:1.5em solid #FFF;
 }
+/* SERVICES */
 
+
+/* CONTACT */
 #map_canvas{
 	width:100%;
-	height:500px;
+	height:600px;
 	background-color: #CCC;
+	margin-top:80px;
 }

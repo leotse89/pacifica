@@ -33,6 +33,8 @@ function initialize() {
 		disableAutoPan: true
 	});
 	
+	info.open(map,marker);
+	
     google.maps.event.addListener(marker, "click", function (e) { 
 		info.open(map, this); 
 	});
