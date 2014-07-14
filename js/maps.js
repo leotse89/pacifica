@@ -1,10 +1,12 @@
 function initialize() {
+	var styles = [{stylers:[{hue:'#2c3e50'},{saturation:250}]},{featureType:'road',elementType:'geometry',stylers:[{lightness:50},{visibility:'simplified'}]},{featureType:'road',elementType:'labels',stylers:[{visibility:'off'}]}];
 	var map_canvas = document.getElementById('map_canvas');
 	var myLatlng = new google.maps.LatLng(49.2576930,-123.1152904);
 	var map_options = {
 		center: myLatlng,
 		zoom: 18,
-		mapTypeId: google.maps.MapTypeId.ROADMAP
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		styles: styles
 	}
 	var map = new google.maps.Map(map_canvas, map_options);
 	google.maps.event.addDomListener(window, "resize", function(){
