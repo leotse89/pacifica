@@ -42,9 +42,10 @@
                 </li>
                 <li class="sidebar-brand-custom"><a id="4p" href='index.php?page=4'<?php if(isset($_GET['page']) && $_GET['page']==4){echo "class='navActive'";}?>>Patient Forms</a>
                 </li>
-                <li class="sidebar-brand-custom"><a id="5p" href='index.php?page=5'<?php if(isset($_GET['page']) && $_GET['page']==5){echo "class='navActive'";}?>>Contact Us</a>
+                <li class="sidebar-brand-custom"><a id="5p" href='index.php?page=5'<?php if(isset($_GET['page']) && $_GET['page']==5){echo "class='navActive'";}?>>Contact</a>
                 </li>
-             
+                <a id="appointment_btn" href="#" class="btn btn-danger">Book An Appointment<i class="icon-reorder"></i>
+                    </a>
             </ul>
         </div>
 

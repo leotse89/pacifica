@@ -295,3 +295,13 @@ color: #fff;
 background: #A3CE65;
 
 }
+
+.sidebar-nav{
+	text-align:center;
+}
+
+#appointment_btn{
+	margin-top:250px;
+	border-radius:0;
+	
+}
