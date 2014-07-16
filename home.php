@@ -15,7 +15,7 @@
                     	<div class="col-xs-6">
                         <hr class="title-line-hours " align="left" width="80" >
                         	<h1 class="lead business-hours-title">BUSINESS HOURS</h1>
-                            <p class="lead bottom-description">Monday to Friday<br>8:30A.M. To 4:30P.M.</p>
+                            <p class="lead bottom-description">Monday to Friday<br>9:00 A.M. To 5:00 P.M.</p>
                         </div>
                         
                         <div class="col-xs-6">

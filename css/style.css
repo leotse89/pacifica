@@ -23,7 +23,7 @@
 }
 
 body{
-	 font-family: Openlight;
+	 font-family: Openlight, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	 background-image:url('../img/homebackground.jpg');
 	 background-size:cover;
 	 height:100vh;
@@ -63,11 +63,13 @@ body{
 }
 
 .home-description-custom{
-	background-color:rgba(139, 196, 63, 1);
+	background-color:rgba(139, 196, 63, 0.9);
 	color:white;
 	padding-left:0px;
 	margin-top:115px;
-	margin-right:-20px;
+	margin-right:0px;
+	padding-top:50px;
+	
 	
 }
 
@@ -86,7 +88,7 @@ body{
 
 .home-title{
 	font-size:2em;
-	font-family:Openbold;
+	font-family:Openbold, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-top:-15px;
 	
 	
@@ -100,8 +102,9 @@ body{
 }
 
 .bottom-logo-img{
-	margin-top:30px;
-	margin-bottom:5px;
+	margin-top:80px;
+	margin-bottom:20px;
+	
 	
 }
 
@@ -110,7 +113,6 @@ body{
 .bottom-description-custom{
 	background-color:rgba(255,255,255,1);
 	position:absolute;
-	
 	padding-left:50px;
 	bottom:0;
 	right:-20px;
@@ -121,14 +123,14 @@ body{
 .bottom-description{
 	margin-top:-15px;
 	font-size:0.8em;
-	font-family:Openregular;	
+	font-family:Openregular, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
 	margin-bottom:10px;
 	
 }
 
 .business-hours-title,
 .location-title{
-	font-family:Openbold;
+	font-family:Openbold, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1.2em;
 	margin-top:-15px;
 }
@@ -145,7 +147,8 @@ body{
 	background-color:white;
 	margin-top:-70px;
 	text-align:center;
-	font-family:Openbold;
+	font-family:Openbold, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
 		
 }
 
@@ -156,7 +159,7 @@ body{
 
 .about-us-description{
 	font-size:1em;
-	font-family:Openlight;
+	font-family:Openlight, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-bottom:75px;
 }
 
@@ -166,7 +169,7 @@ body{
 	
 .staff-div{
 	background-color:white;
-	font-family:Openbold;
+	font-family:Openbold, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align:center;
 }
 
@@ -231,7 +234,7 @@ body{
 }
 
 .member-title{
-	font-family:Openbold;
+	font-family:Openbold, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1em;
 	text-align:right;
 	padding-right:5px;
@@ -257,7 +260,7 @@ body{
 }
 
 .what-we-do-title{
-	font-family:Openbold;
+	font-family:Openbold, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1.5em;
 	margin-top:20px;
 }
@@ -305,3 +308,41 @@ background: #A3CE65;
 	border-radius:0;
 	
 }
+
+.patient_button{
+	border-radius:0;
+	padding:20px;
+	margin-top:150px;
+}
+
+/* Custom Media Queries */
+@media(max-width:767px){	
+	.home-description-custom {
+		width:100%;
+	}
+	.bottom-description-custom {
+		width:100%;
+		left:0;
+	}
+	.service-top,
+	.patient-top{
+		margin-top:30px;
+		padding-top:30px;
+		padding-bottom:30px;
+		z-index:998;
+	}
+	#menu-toggle{
+		z-index:999;
+	}
+	
+	.what-we-do-div {
+		width:100%;
+		margin-right:0;
+		text-align:center;
+	}
+	.service-title-line{
+		display:none;
+	}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}

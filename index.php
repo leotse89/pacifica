@@ -16,7 +16,7 @@
             break;
             
             case 4:
-                include("registration.php");
+                include("patientform.php");
             break;
             
             case 5:
