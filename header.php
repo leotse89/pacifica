@@ -12,19 +12,21 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
-   
+    <!-- Add custom CSS here --> 
     <link href="css/simple-sidebar.css" rel="stylesheet">
-    
-   
-     
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
      
-   
+   	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
-	<script src="js/maps.js"></script>
-    <script src="js/script.js"></script>
+    <script>
+	$(document).ready(function(){
+		<!-- Custom JavaScript for the Menu Toggle -->
+		$("#menu-toggle").click(function(e) {
+			e.preventDefault();
+			$("#wrapper").toggleClass("active");
+		});
+	});
+    </script>
 
 <body>
  <div id="wrapper">
@@ -44,8 +46,9 @@
                 </li>
                 <li class="sidebar-brand-custom"><a id="5p" href='index.php?page=5'<?php if(isset($_GET['page']) && $_GET['page']==5){echo "class='navActive'";}?>>Contact</a>
                 </li>
-                <a id="appointment_btn" href="#" class="btn btn-danger">Book An Appointment<i class="icon-reorder"></i>
-                    </a>
+                <div id="appointment_btn">Book An Appointment<br/><a href="tel:+16048668584" id="phoneNum">604.866.8584</a><i class="icon-reorder"></i>
+                    </div>
+                <div id="copyright">Pacifica Dental Center &copy;2014</div>
             </ul>
         </div>
 

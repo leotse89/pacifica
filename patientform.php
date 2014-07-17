@@ -18,7 +18,7 @@
                     
                    
                 	<div class="col-sm-12" style="text-align:center;">
-                    	<a class="btn btn-warning patient_button">Patient Form PDF</a>
+                    	<a class="btn btn-warning patient_button" href="NewPatientForm.pdf" download>Patient Form PDF</a>
                     </div>
                    
                     

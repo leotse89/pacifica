@@ -306,13 +306,23 @@ background: #A3CE65;
 #appointment_btn{
 	margin-top:250px;
 	border-radius:0;
-	
+	margin-bottom:20px;
+	color: #fff;
+	background-color: #d9534f;
+	border-color: #d43f3a;
+	width:80%;
+	margin:250px auto 30px auto;
+	padding:10px;
 }
 
 .patient_button{
 	border-radius:0;
 	padding:20px;
 	margin-top:150px;
+}
+
+#phoneNum{
+	color:#FFF;
 }
 
 /* Custom Media Queries */
